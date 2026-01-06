@@ -1,6 +1,6 @@
-**🚀 Advanced RAG with Sentence Window Retrieval**
+***🚀 Advanced RAG with Sentence Window Retrieval***
 
-""🔍 The Problem with Traditional RAG:**
+**🔍 The Problem with Traditional RAG:**
 
 Traditional Retrieval-Augmented Generation (RAG) systems have a fundamental limitation: context fragmentation. When a query is made, these systems typically retrieve isolated chunks of text that match the query semantically, but often miss the surrounding context that gives the information its true meaning and completeness.
 
@@ -11,7 +11,7 @@ While accurate, this isolated sentence lacks the narrative context that explains
 - What preceded this decision
 - What consequences followed
 
-**💡 The Solution: Sentence Window Retrieval:**\
+**💡 The Solution: Sentence Window Retrieval:**
 
 Sentence Window Retrieval represents a paradigm shift in how we think about context in RAG systems. Instead of retrieving isolated sentences or chunks, this advanced technique captures intelligent context windows around each relevant sentence.
 
@@ -24,9 +24,13 @@ How It Works: The Window Mechanism
 Visual Example:
 
 [Previous Sentence 2]  ← Window
+
 [Previous Sentence 1]  ← Window
+
 [RELEVANT SENTENCE]    ← Matched by similarity
+
 [Next Sentence 1]      ← Window  
+
 [Next Sentence 2]      ← Window
 
 **🎯 Why This Matters: Beyond Semantic Matching:**
